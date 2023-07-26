@@ -35,6 +35,13 @@ export async function getTopPeople() {
   return results
 }
 
+export async function getMovieTrailer(movieId) {
+  const {
+    data: { results }
+  } = await api.get(`/movie/${movieId}/videos`)
+  return results[0]
+}
+
 export async function getMovieTrailers(movieId) {
   const {
     data: { results }
