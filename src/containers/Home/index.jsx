@@ -11,7 +11,7 @@ import {
   getTopPeople,
   getTopSeries
 } from '../../services/getData'
-import { getImages } from '../../services/utils/getImages'
+import { getImages } from '../../utils/getImages'
 import { Background, Info, Poster, Container, ContainerButtons } from './styles'
 const Home = () => {
   const [showModal, setShowModal] = useState(false)

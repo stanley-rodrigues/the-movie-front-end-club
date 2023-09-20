@@ -1,4 +1,4 @@
-import { getImages } from '../../services/utils/getImages'
+import { getImages } from '../../utils/getImages'
 import { Container, Title } from './styles'
 const Credits = ({ credits }) => {
   return (

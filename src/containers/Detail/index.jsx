@@ -8,9 +8,9 @@ import {
   getMovieSimilar,
   getMovieTrailers
 } from '../../services/getData'
-import { getImages } from '../../services/utils/getImages'
-import Credits from '../Credits'
-import SpanGenres from '../SpanGenres'
+import { getImages } from '../../utils/getImages'
+import Credits from '../../components/Credits'
+import SpanGenres from '../../components/SpanGenres'
 import { Container, Background, Cover, Info, ContainerMovies } from './styles'
 const Detail = () => {
   const { id } = useParams()
