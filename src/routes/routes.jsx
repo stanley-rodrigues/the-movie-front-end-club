@@ -1,6 +1,6 @@
 import { Route, Routes } from 'react-router-dom'
 
-import Detail from '../components/Detail'
+import Detail from '../containers/Detail'
 import Home from '../containers/Home'
 import Movies from '../containers/Movies'
 import Series from '../containers/Series'
